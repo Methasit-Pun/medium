@@ -3,6 +3,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BookReviews from "./pages/BookReviews";
+import Articles from "./pages/Articles";
+import HomePage from "./pages/HomePage";
+
+// Routes setup
 
 const App = () => {
   return (
@@ -11,8 +15,15 @@ const App = () => {
         <Header />
         <main className="content">
           <Routes>
+          <Route path="/" element={<HomePage />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/book-reviews" element={<BookReviews />} />
           </Routes>
         </main>
-        <Footer />
+        <Footer />
+      </Router>
+    </div>
+  );
+};
+
+export default App;
