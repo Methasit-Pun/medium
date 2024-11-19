@@ -1,0 +1,67 @@
+.articles {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .articles-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .article-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .article-card {
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .article-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3a3a3a;
+  }
+  
+  .article-description {
+    font-size: 1rem;
+    color: #5a5a5a;
+    margin-bottom: 15px;
+  }
+  
+  .article-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 15px;
+  }
+  
+  .read-more-button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+  }
+  
+  .read-more-button:hover {
+    background: #574dcc;
+  }
+  
