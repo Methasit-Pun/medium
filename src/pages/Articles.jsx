@@ -24,6 +24,28 @@ const Articles = () => {
       author: "Emily Clark",
       date: "Nov 10, 2024",
     },
+    {
+      id: 4,
+      title: "10 Must-Read Classics",
+      description: "A list of timeless books that everyone should read at least once.",
+      author: "Emily Clark",
+      date: "Nov 10, 2024",
+    },
+    {
+      id: 5,
+      title: "10 Must-Read Classics",
+      description: "A list of timeless books that everyone should read at least once.",
+      author: "Emily Clark",
+      date: "Nov 10, 2024",
+    },
+    {
+      id: 6,
+      title: "10 Must-Read Classics",
+      description: "A list of timeless books that everyone should read at least once.",
+      author: "Emily Clark",
+      date: "Nov 10, 2024",
+    }
+
   ];
 
   return (

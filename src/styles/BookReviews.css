@@ -1,0 +1,71 @@
+.book-reviews {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .reviews-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .review-card {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .book-image {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .review-content {
+    flex: 1;
+  }
+  
+  .book-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3a3a3a;
+    margin-bottom: 5px;
+  }
+  
+  .book-author {
+    font-size: 1rem;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+  }
+  
+  .book-review {
+    font-size: 1rem;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+  }
+  
+  .review-date {
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
