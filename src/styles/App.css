@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  margin: 0;
+  background-color: #F8F8FF;
+}
+h1, h2, h3 {
+  font-weight: 700;
+  color: #6A0DAD;
+}
+p {
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #6A0DAD;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+html, body {
+  height: 100%; /* Ensure the page takes up the full height of the viewport */
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app container spans the full height */
+}
+
+.content {
+  flex: 1; /* This makes the content area grow to fill the available space */
+}
+
+footer {
+  background: linear-gradient(90deg, #FF9900, #6A0DAD);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
