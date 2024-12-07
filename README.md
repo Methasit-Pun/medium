@@ -19,10 +19,6 @@ Welcome to **Personal Hub**, a modern and responsive React-based website designe
   
 ---
 
-## Demo Preview 🌐
-> [Add link if hosted]  
-
----
 
 ## Installation ⚙️
 
