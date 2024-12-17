@@ -1,7 +1,3 @@
-Here’s a `README.md` file for your project:
-
----
-
 # Personal Hub for Book Reviews and Article Writing ✍️📚
 
 Welcome to **Personal Hub**, a modern and responsive React-based website designed for book reviews and article writing. This project is a personal platform with a clean, aesthetic design featuring purple and orange tones.  
